@@ -1,0 +1,118 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+   
+}
+
+.main-bar {
+    background-color:#fff;
+    padding: 8px;
+}
+
+.container-fluid {}
+
+.search-icon {
+    display: inline;
+}
+
+.toogle-img {
+    margin-right: 10px;
+}
+
+.main-profile {
+    text-align: right;
+}
+
+.drop-img {
+    width: 40px;
+    height: 40px;
+    border-radius: 30px;
+}
+
+.search-box {
+    margin-top: 5px;
+    border: 2px solid black;
+    margin-left: 10px;
+}
+
+@media only screen and (max-width: 600px) {}
+
+.web-title {
+    font-size: 35px;
+    margin: 0 5px;
+    ont-family: 'Montserrat', sans-serif;
+}
+
+.side-bar{
+    width: 20%;
+    height: 800px;
+    background-color: #EE6C4D;
+    position: absolute;
+    left: 0;
+    top: 0;    
+   
+}
+.ul-one,.ul-two {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: justify;
+   
+}
+
+a {
+    text-decoration: none;
+}
+
+.side-links {
+    text-decoration: none;
+    color: black;
+}
+
+.main-content {
+    width: 80%;
+    height: 800px;
+    background-color:#ECEFF0;
+    position: absolute;
+    right: 0;
+}
+
+.main {
+    position: relative;
+}
+
+.main-div {
+/*    display: inline-block;*/
+    padding-top: 1rem;
+}
+
+li:hover {
+    background: rgba(255,255,255,.2);    
+}
+
+li{
+   
+    position: relative;
+}
+
+.horizontal-rule {
+      height:0;
+    border-top: 1px solid rgba(0, 0, 0, .1);
+    border-bottom: 1px solid rgba(255, 255, 255, .3);
+    width: 90%;
+    margin:30px auto;
+}
+
+.side-bar-icon {
+    margin: 10px 10px;
+    text-align: end;
+}
+
+.link-text {
+    
+    position: absolute;
+    left: 60px;
+    top: 18px;
+
+}
