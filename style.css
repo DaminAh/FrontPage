@@ -113,7 +113,7 @@ li{
     
 }
 .main-left {
-    height: 700px;
+    height: auto:;
     background-color: #EE6C4D;
     padding-top: .5rem;
     border-radius: 10px;
@@ -121,7 +121,7 @@ li{
 }
 
 .main-right {
-    height: 700px;
+    height: auto;
     background-color: #ECEFF0;
     border-radius: 10px;
 
@@ -134,7 +134,7 @@ li{
 
 .gallery-item {
     flex-basis: 22%;
-    height: 300px;
+    height: 350px;
 /*    background-color: #ecb390;*/
     margin-top: 20px;
     border-radius: 10px;
@@ -163,4 +163,52 @@ li{
 .gallery-div:hover {
      background: rgba(0,0,0,.4); 
     border-radius: 10px;
+    
+}
+
+.gallery-item:hover{
+    transform: translateY(-10px);
+}
+
+.watch-two {
+    background-color: aqua;
+    
+    
+}
+
+.main-two {
+    display: flex;
+    background-color:blueviolet;
+}
+
+.tutorial-gallery {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content:space-evenly;
+}
+
+.tgallery-item {
+    border-radius: 10px;
+    flex-basis: 18%;
+    height: 400px;
+/*    background-color: brown;*/
+    border-radius: 10px;
+    text-align: center;
+   font-family: 'Montserrat', sans-serif;
+    margin-top: 10px;
+}
+
+.tgallery-item:hover{
+    transform: translateY(-10px);
+}
+
+.t-frame {
+    display: block;
+    width: 100%;
+}
+
+.main-video {
+    
+     height: 1200px;
 }
